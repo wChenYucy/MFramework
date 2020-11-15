@@ -638,7 +638,12 @@
       <HintPath>E:/Codes/Unity/MFramework/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MVC.csproj">
+      <Project>{BF5D39D2-07B8-3E62-F8EA-01EB46142AE7}</Project>
+      <Name>MVC</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
