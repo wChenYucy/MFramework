@@ -1,10 +1,6 @@
 # MFramework
 
-## 一、有限状态机（Finite-State Meachine）
-
-
-
-## 二、MVC框架
+## 一、MVC框架
 
 ### 1 .MVC架构
 
@@ -66,7 +62,6 @@ MVC详解可以参考知乎回答[如何理解MVC](https://wjrsbu.smartapps.cn/z
 
 ### 3.案例
 
-- 在本项目中附带了一个小型案例以供参考。
 - 利用该框架复刻了经典游戏[《俄罗斯方块》](https://github.com/PositiveMumu/Tetris)。可以通过该案例来具体学习本框架在项目中的具体应用。
 
 
