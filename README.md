@@ -12,7 +12,7 @@ MVC详解可以参考知乎回答[如何理解MVC](https://wjrsbu.smartapps.cn/z
 
 ###  2.框架实现思路
 
-####  (1).定义MVC框架管理器——MVCSystem。
+####  (1). 定义MVC框架管理器——MVCSystem。
 
 该类为静态类，主要存储MVC中的数据并完成事件的转发。
 
@@ -28,7 +28,7 @@ MVC详解可以参考知乎回答[如何理解MVC](https://wjrsbu.smartapps.cn/z
 
 在阅读知乎的文章后，我们知道Controller其实是View的一种。就好比在J2EE框架中，JSP作为前端显示页面，其中也可以包含Servlet中的Java代码，而Servlet就是JSP的一种只用来处理逻辑的形式。所以在View层中我们也可以让其直接接收事件并相应，无需经过Controller转发（因为View本身也是一种Controller），从而减少Controller数量。
 
-####  (2).定义View层基类——BaseView。
+####  (2). 定义View层基类——BaseView。
 
 该类为抽象类，并且继承自MonoBehaviour，是游戏展示给玩家的元素的控制类（UI元素以及非UI元素）。
 
@@ -44,7 +44,7 @@ MVC详解可以参考知乎回答[如何理解MVC](https://wjrsbu.smartapps.cn/z
 
 6. 提供发送事件方法(调用MVCSystem中的发送事件的方法，尽量隐藏MVCSystem，避免外界调用)。
 
-#### (3).定义Model层基类——BaseModel。
+#### (3). 定义Model层基类——BaseModel。
 
 该类为抽象类，主要用存储数据并处理数据逻辑。
 
@@ -53,7 +53,7 @@ MVC详解可以参考知乎回答[如何理解MVC](https://wjrsbu.smartapps.cn/z
 
 
 
- #### (4).定义Controller层基类——BaseController。
+ #### (4). 定义Controller层基类——BaseController。
 
 该类为抽象类，主要用来响应并处理请求。
 
@@ -64,13 +64,39 @@ MVC详解可以参考知乎回答[如何理解MVC](https://wjrsbu.smartapps.cn/z
 
 - 利用该框架复刻了经典游戏[《俄罗斯方块》](https://github.com/PositiveMumu/Tetris)。可以通过该案例来具体学习本框架在项目中的具体应用。
 
+## 二、资源池（ResourcePool)
 
+### 1. 简单资源池——V1.0.0版本
 
+### (1). 介绍
 
+简单资源池保存所有被生成的实例。当项目中需求的某种资源数量大于资源池中的数量时，资源池会实例化新的对象并持有它的引用。资源池中每个子对象池引用的数量没有上限。提供强制回收所有资源的方法。
 
+框架中包含有：
 
+- IResuable接口，继承该接口需要实现`Spawn`和`Unspawn`方法，两个方法分别在从资源池中获得和回收资源时调用，主要实现初始化对象和清除脏数据。
+- ResuableObject抽象类，实现IResuable接口的抽象类（仅仅包含接口中的两个方法）。
+- SubObjectPool类，子对象池类，保存具体的一类资源。
+- ObjectPool单例类，管理资源的创建、分配、回收和销毁。
 
+### (2). 使用方法
 
+1. 资源池管理的所有资源都要被制作成prefab。
+2. 将ObjectPool组建添加至场景的物体中，并对ResourceDir赋值，该路径地址为资源池管理资源在Resources目录下的地址（框架通过Resources.Load加载资源）。
+3. 在需要获得对象的地方使用`ObjectPool.Spawn(string prefabName)`方法获得预制体对象，函数返回值类型为`GameObject`。
+4. 在需要回收对象的地方使用`ObjectPool.Unspawn(GameObject prefab)`方法回收预制体对象。
+
+### (3). 补充说明
+
+如果预制体并没有存放在Resources目录下的相同文件夹中，那么ResourceDir需要赋值为公共文件夹部分。在获取对象时要加入差异文件夹前缀。
+
+例如：GoldEffect预制体被放置在Resources/Prefabs/Effect文件夹下，GoldElement预制体被放置在Resources/Prefabs/Element文件夹下。
+
+则ResourceDir需要赋值`Resources/Prefabs`。在使用`ObjectPool.Spawn`方法时传递的参数为`Effect/GoldEffect`或者`Element/GoldElement`。
+
+如果GoldEffect预制体和GoldElement预制体被放置在Resources/Prefabs文件夹下。
+
+则ResourceDir需要赋值`Resources/Prefabs`。在使用`ObjectPool.Spawn`方法时传递的参数为`GoldEffect`或者`GoldElement`即可。
 
 
 

@@ -652,9 +652,9 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6DA85072-0C81-B8D3-487D-7ADDAFE768A3}</Project>
-      <Name>Assembly-CSharp</Name>
+    <ProjectReference Include="ResourcePool.csproj">
+      <Project>{B4E85D3E-2EBB-035C-86AB-22438820DEEA}</Project>
+      <Name>ResourcePool</Name>
     </ProjectReference>
     <ProjectReference Include="MVC.csproj">
       <Project>{BF5D39D2-07B8-3E62-F8EA-01EB46142AE7}</Project>
