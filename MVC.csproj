@@ -58,16 +58,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Model-View-Controller\BaseController.cs" />
-     <Compile Include="Assets\Scripts\Model-View-Controller\BaseModel.cs" />
-     <Compile Include="Assets\Scripts\Model-View-Controller\BaseView.cs" />
-     <Compile Include="Assets\Scripts\Model-View-Controller\MVCSystem.cs" />
-     <None Include="Assets\Scripts\Model-View-Controller\MVC.asmdef" />
+     <Compile Include="Assets\Model-View-Controller\Scripts\BaseController.cs" />
+     <Compile Include="Assets\Model-View-Controller\Scripts\BaseModel.cs" />
+     <Compile Include="Assets\Model-View-Controller\Scripts\BaseView.cs" />
+     <Compile Include="Assets\Model-View-Controller\Scripts\MVCSystem.cs" />
+     <None Include="Assets\Model-View-Controller\Scripts\MVC.asmdef" />
  <Reference Include="UnityEditor.UI">
- <HintPath>/Volumes/Datas/Codes/Unity/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/mumu/Codes/Unity/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Volumes/Datas/Codes/Unity/MFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/mumu/Codes/Unity/MFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
