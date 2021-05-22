@@ -287,6 +287,9 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="LitJSON">
+ <HintPath>/Users/mumu/Codes/Unity/MFramework/Assets/UGUIFramework/Plugins/LitJSON.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/mumu/Codes/Unity/MFramework/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
@@ -652,6 +655,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{6DA85072-0C81-B8D3-487D-7ADDAFE768A3}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
     <ProjectReference Include="MVC.csproj">
       <Project>{BF5D39D2-07B8-3E62-F8EA-01EB46142AE7}</Project>
       <Name>MVC</Name>

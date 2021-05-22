@@ -58,11 +58,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\FrameWork\Singleton\SingLeton.cs" />
-     <Compile Include="Assets\Scripts\FrameWork\UI\Base\BasePanel.cs" />
-     <Compile Include="Assets\Scripts\FrameWork\UI\Base\PanelInfo.cs" />
-     <Compile Include="Assets\Scripts\FrameWork\UI\Manager\UIManager.cs" />
-     <Compile Include="Assets\Scripts\FrameWork\UI\UIPanel\UIPanelTypes.cs" />
+     <Compile Include="Assets\UGUIFramework\Scripts\Singleton\SingLeton.cs" />
+     <Compile Include="Assets\UGUIFramework\Scripts\UI\Base\BasePanel.cs" />
+     <Compile Include="Assets\UGUIFramework\Scripts\UI\Base\PanelInfo.cs" />
+     <Compile Include="Assets\UGUIFramework\Scripts\UI\Manager\UIManager.cs" />
+     <Compile Include="Assets\UGUIFramework\Scripts\UI\UIPanel\UIPanelTypes.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/mumu/Codes/Unity/MFramework/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -266,6 +266,9 @@
  </Reference>
  <Reference Include="UnityEngine.XRModule">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJSON">
+ <HintPath>/Users/mumu/Codes/Unity/MFramework/Assets/UGUIFramework/Plugins/LitJSON.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -629,13 +632,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ResourcePool.csproj">
-      <Project>{B4E85D3E-2EBB-035C-86AB-22438820DEEA}</Project>
-      <Name>ResourcePool</Name>
-    </ProjectReference>
     <ProjectReference Include="MVC.csproj">
       <Project>{BF5D39D2-07B8-3E62-F8EA-01EB46142AE7}</Project>
       <Name>MVC</Name>
+    </ProjectReference>
+    <ProjectReference Include="ResourcePool.csproj">
+      <Project>{B4E85D3E-2EBB-035C-86AB-22438820DEEA}</Project>
+      <Name>ResourcePool</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
