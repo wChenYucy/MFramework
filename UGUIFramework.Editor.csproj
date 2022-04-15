@@ -319,59 +319,38 @@
      <Reference Include="UnityEditor.OSXStandalone.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.Android.Extensions">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.iOS.Extensions">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization.Config">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.iOS.Extensions.Common">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Android.Types">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Android.Gradle">
-     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
@@ -974,24 +953,22 @@
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TestRunner">
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TestRunner">
+     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UGUIFramework.csproj">
       <Project>{faa8a9bd-fa72-7489-9adf-c15567055367}</Project>
       <Name>UGUIFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{1441c768-632e-9c82-d201-e7c6fbbe4435}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{70534a63-1fc7-c04d-c1be-b7df04a7de7a}</Project>
-      <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
