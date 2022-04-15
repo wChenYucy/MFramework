@@ -1,11 +1,13 @@
 {
     "name": "UGUIFramework.Editor",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [],
-    "excludePlatforms": [
+    "references": [
+        "GUID:e23f8758af6484203b701fc2ad17abe9"
+    ],
+    "includePlatforms": [
         "Editor"
     ],
+    "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],

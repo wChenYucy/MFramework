@@ -12,7 +12,9 @@ using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
 
-public class UGUIFrameworkPreferences : SerializedScriptableObject
+namespace UGUIFramework
+{
+    public class UGUIFrameworkPreferences : SerializedScriptableObject
 {
     private static UGUIFrameworkPreferences instance;
 
@@ -90,3 +92,5 @@ public class UGUIFrameworkPreferences : SerializedScriptableObject
         CreateScriptsFolder = false;
     }
 }
+}
+

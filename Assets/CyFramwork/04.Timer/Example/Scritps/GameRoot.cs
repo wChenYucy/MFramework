@@ -6,18 +6,18 @@ using UnityEngine;
 public class GameRoot : MonoBehaviour
 {
     // Start is called before the first frame update
-    private CyTimer timer;
+    private CyTimer _timer;
     private int taskID;
     void Start()
     {
         Debug.Log("Game Start...");
-        timer = gameObject.GetComponent<CyTimer>();
-        timer.Init();
+        _timer = new CyTimer();
+        _timer.Init(info => { Debug.Log("Timer:" + info); });
     }
 
     private void Update()
     {
-        timer.Tick();
+        _timer.Tick();
     }
 
     private void FunA()
@@ -28,12 +28,29 @@ public class GameRoot : MonoBehaviour
     public void OnAddButtonClick()
     {
         Debug.Log("Add Time Task.");
-        taskID = timer.AddTimerTask(FunA, 1000, CyTimerUnit.Millisecond, 3);
+        taskID = _timer.AddTimeTask(FunA, 1000, CyTimerUnit.Millisecond, 3);
     }
 
     public void OnCancelButtonClick()
     {
-        bool result = timer.DeleteTimerTask(taskID);
+        bool result = _timer.DeleteTimeTask(taskID);
         Debug.Log("Delete Time Task : " + result + " , taskID:" + taskID);
+    }
+    
+    public void OnFrameAddButtonClick()
+    {
+        Debug.Log("Add Time Task.");
+        taskID = _timer.AddFrameTask(FunB, 60, 0);
+    }
+
+    public void OnFrameCancelButtonClick()
+    {
+        bool result = _timer.DeleteFrameTask(taskID);
+        Debug.Log("Delete Time Task : " + result + " , taskID:" + taskID);
+    }
+    
+    private void FunB()
+    {
+        Debug.Log("FunB Called.");
     }
 }

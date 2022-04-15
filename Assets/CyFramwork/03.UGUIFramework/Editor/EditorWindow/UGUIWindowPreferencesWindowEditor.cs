@@ -11,19 +11,23 @@ using Sirenix.Utilities;
 using Sirenix.Utilities.Editor;
 using UnityEditor;
 
-public class UGUIWindowPreferencesWindowEditor : OdinEditorWindow
+namespace UGUIFramework
 {
-    [MenuItem("Tools/UGUIFramework/Preferences")]
-    public static void OpenWindow()
+    public class UGUIWindowPreferencesWindowEditor : OdinEditorWindow
     {
-        UGUIWindowPreferencesWindowEditor window = GetWindow<UGUIWindowPreferencesWindowEditor>("UGUIFramework Preferences");
-        window.position = GUIHelper.GetEditorWindowRect().AlignCenter(800, 500);
-        window.autoRepaintOnSceneChange = true;
-        window.Show();
-    }
+        [MenuItem("Tools/UGUIFramework/Preferences")]
+        public static void OpenWindow()
+        {
+            UGUIWindowPreferencesWindowEditor window = GetWindow<UGUIWindowPreferencesWindowEditor>("UGUIFramework Preferences");
+            window.position = GUIHelper.GetEditorWindowRect().AlignCenter(800, 500);
+            window.autoRepaintOnSceneChange = true;
+            window.Show();
+        }
     
-    protected override object GetTarget()
-    {
-        return UGUIFrameworkPreferences.Instance;
+        protected override object GetTarget()
+        {
+            return UGUIFrameworkPreferences.Instance;
+        }
     }
 }
+
