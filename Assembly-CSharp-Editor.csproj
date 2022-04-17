@@ -297,38 +297,59 @@
      <Reference Include="UnityEditor.OSXStandalone.Extensions">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.Android.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.iOS.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.OdinInspector.Attributes">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization.Config">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Utilities.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Assets/CyFramwork/03.UGUIFramework/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.iOS.Extensions.Common">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
@@ -930,41 +951,11 @@
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1c1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.TestRunner">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.TestRunner">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/Chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>/Users/chenyu/Codes/Unity/Frameworks/MFramework/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -972,9 +963,41 @@
       <Project>{7250a86d-810c-d3b8-487d-7addafe768a3}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{1441c768-632e-9c82-d201-e7c6fbbe4435}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{70534a63-1fc7-c04d-c1be-b7df04a7de7a}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{8908f014-5799-9954-3718-5e2368a83101}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{47b79792-0944-664a-c41b-22aae51c62d3}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{8b9111cf-6cf4-e781-1af7-2db5926f6f82}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{687229ae-311c-ee94-10c2-9db1bb55e052}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{e2eb2e46-efb8-916e-dcf0-23ee8f1f6dd9}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{12282fed-5173-99c3-fe50-5955859426a1}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{d03c5e4f-0c59-1d3b-d825-af5b51bd396f}</Project>
+      <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Timer.csproj">
       <Project>{944345a9-b5a5-5256-cd9e-ad3e02f5fa1e}</Project>
@@ -995,6 +1018,14 @@
     <ProjectReference Include="ResourcePool.csproj">
       <Project>{3e5de8b4-bb2e-5c03-86ab-22438820deea}</Project>
       <Name>ResourcePool</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{c9f47094-ccdd-3211-947c-07defd422698}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{f4d34c71-62f0-680e-fc10-673620347f7c}</Project>
+      <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{3a5f6f01-db74-faaf-ebf3-da04fae69de5}</Project>
